@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+body {
+  margin: 0%;
+  padding: 0%;
+  background: url(https://datadex.talzz.com/_images/graphics/background.png);
+  scroll-behavior:smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.glass{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)) !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.poke-img {
+  width: 25rem;
+  height: 25rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.loading-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
 }
 
-.App-link {
-  color: #61dafb;
+.scale-up-div:hover {
+  transform: scale(1.2); 
+  transition: transform 0.2s ease; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Type Color  */
+
+.type-normal {
+  background-color: #aa9;
+}
+
+.type-fire {
+  background-color: #f42;
+}
+
+.type-water {
+  background-color: #39f;
+}
+
+.type-electric {
+  background-color: #fc3;
+}
+
+.type-grass {
+  background-color: #7c5;
+}
+
+.type-ice {
+  background-color: #6cf;
+}
+
+.type-fighting {
+  background-color: #b54;
+}
+
+.type-poison {
+  background-color: #a59;
+}
+
+.type-ground {
+  background-color: #db5;
+}
+
+.type-flying {
+  background-color: #89f;
+}
+
+.type-psychic {
+  background-color: #f59;
+}
+
+.type-bug {
+  background-color: #ab2;
+}
+
+.type-rock {
+  background-color: #ba6;
+}
+
+.type-ghost {
+  background-color: #66b;
+}
+
+.type-dragon {
+  background-color: #74e;
+}
+
+.type-dark {
+  background-color: #754;
+}
+
+.type-steel {
+  background-color: #aab;
 }
